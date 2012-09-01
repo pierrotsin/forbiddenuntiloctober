@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+
+    <ToggleButton
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton" >
+    </ToggleButton>
+
+    <EditText
+        android:id="@+id/IP_edit_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="192.168.10.100" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/point_gps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" >
+        
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/forward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="포인트추가" />
+
+        <Button
+            android:id="@+id/revers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="뒤로" />
+
+        <Button
+            android:id="@+id/StartAuto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="자동시작" />
+
+        <Button
+            android:id="@+id/StartAuto2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="학교C동" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/School_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="학교 자동시작" />
+
+        <Button
+            android:id="@+id/AvoidAuto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="피하기" />
+
+        <Button
+            android:id="@+id/nonAvoidAuto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="안피하기" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/thread_abot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="스레드 종료" />
+         <Button
+            android:id="@+id/left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="왼쪽" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="ready" />
+
+        <TextView
+            android:id="@+id/rad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text=" ready " />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/loop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="loop" />
+
+        <TextView
+            android:id="@+id/point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="point" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="distance" />
+    <TextView
+        android:id="@+id/cal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="cal" />
+
+</LinearLayout>
